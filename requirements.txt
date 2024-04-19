@@ -1,0 +1,11 @@
+streamlit
+torch
+Pillow
+numpy
+requests
+opencv-contrib-python-headless
+ultralytics
+torchutils
+tensorflow
+tensorflow-examples @ git+https://github.com/tensorflow/examples.git@fff4bcda7201645a1efaea4534403daf5fc03d42
+pandas
