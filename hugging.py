@@ -77,8 +77,8 @@ for i in indices:
         
         display_image_from_url(df["Image"][i])
         st.write(f"Filmru: {df['film.ru'].values[i]} IMDb: {df['IMDb'].values[i]} User: {df['User_rating'].values[i]} ")
-        st.write(f"{df["Genre"].values[i]}")
-        st.write(f"{df["Country"].values[i]}")
+        st.write(f"{df['Genre'].values[i]}")
+        st.write(f"{df['Country'].values[i]}")
 
 
     # Display movie information in the right column
