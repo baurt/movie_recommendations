@@ -76,7 +76,7 @@ for i in indices:
     with col1:
         
         display_image_from_url(df["Image"][i])
-        st.write(f"Filmru: {df["film.ru"].values[i]} IMDb: {df["IMDb"].values[i]} User: {df["User_rating"].values[i]} ")
+        st.write(f"Filmru: {df['film.ru'].values[i]} IMDb: {df['IMDb'].values[i]} User: {df['User_rating'].values[i]} ")
         st.write(f"{df["Genre"].values[i]}")
         st.write(f"{df["Country"].values[i]}")
 
